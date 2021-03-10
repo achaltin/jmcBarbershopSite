@@ -1,0 +1,83 @@
+/*
+    CSS for desktop JMC Barbershop site 
+*/
+html{
+    height:100vh;
+}
+
+body{
+    /* The image used */
+    background-image: url("../img/background.jpeg");
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer{
+    width:100%;
+    display: inline-flex;
+    margin-bottom: 0px;
+    position: fixed;
+    bottom: 0;
+    background-color:#18191D;
+    color: #FE1E4A;
+}
+
+a,p,ul,li{
+    font-family:'Verdana', sans-serif;
+    color: white;
+}
+
+h1{
+    font-family: 'Bangers', sans-serif;
+    font-size: 130px;
+    color: white;
+}
+h2{
+    font-family: 'Bangers', sans-serif;
+    font-size: 100px;
+    color: white; 
+}
+h3{
+    font-family: 'Bangers', sans-serif;
+    font-size: 75px;
+    color: white; 
+}
+
+.center-text{
+    text-align: center;
+}
+
+.page-container{
+    padding:20px;
+    margin:0 auto;
+    min-height:100%;
+    max-width: 800px;
+    background-color:rgba(0, 0, 0, 0.616);
+}
+
+a.btn{
+    background: #38A0FE; 
+    color: #fff; 
+    font-family: 'Bangers',sans-serif;
+    font-size:20px;
+    padding: 8px 12px; 
+    border: 0px; 
+    -webkit-box-shadow: 0 -2px 0 rgba(0,0,0,0.15) inset;
+    -moz-box-shadow: 0 -2px 0 rgba(0,0,0,0.15) inset;
+    box-shadow: 0 -2px 0 rgba(0,0,0,0.15) inset;
+    border-radius: 4px; 
+    text-decoration: none; 
+    display: inline-block;
+}
+
+.column{
+    width:48%;
+    padding:2px;
+    float: left;
+}

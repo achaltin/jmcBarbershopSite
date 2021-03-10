@@ -1,0 +1,14 @@
+@media only screen and (max-width: 550px) {
+
+    .page-container{
+        padding: 50px 20px 20px 20px;
+        background-color:rgba(0, 0, 0, 0.616);
+    }
+    h2{
+        font-size: 65px;
+    }
+    .column{
+        width: 100%;
+        float:none;
+    }
+}
