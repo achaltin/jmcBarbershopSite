@@ -7,8 +7,13 @@
     h2{
         font-size: 65px;
     }
-    .column{
+    .column, .col-3{
         width: 100%;
         float:none;
     }
+
+    footer{
+        position: relative;
+    }
+    
 }

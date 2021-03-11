@@ -28,11 +28,20 @@ footer{
     color: #FE1E4A;
 }
 
-a,p,ul,li{
+a,p,ul,li,tr,td{
     font-family:'Verdana', sans-serif;
     color: white;
 }
-
+table{
+    width:100%;
+}
+td{
+    width:50%;
+    text-align: left;
+}
+td.right{
+    text-align:right;
+}
 h1{
     font-family: 'Bangers', sans-serif;
     font-size: 130px;
@@ -45,7 +54,7 @@ h2{
 }
 h3{
     font-family: 'Bangers', sans-serif;
-    font-size: 75px;
+    font-size: 40px;
     color: white; 
 }
 
@@ -65,7 +74,7 @@ a.btn{
     background: #38A0FE; 
     color: #fff; 
     font-family: 'Bangers',sans-serif;
-    font-size:20px;
+    font-size:30px;
     padding: 8px 12px; 
     border: 0px; 
     -webkit-box-shadow: 0 -2px 0 rgba(0,0,0,0.15) inset;
@@ -74,10 +83,50 @@ a.btn{
     border-radius: 4px; 
     text-decoration: none; 
     display: inline-block;
+    margin: 8px 20px;
+}
+
+a.btn-large{
+    background: #38A0FE; 
+    color: #fff; 
+    font-family: 'Bangers',sans-serif;
+    font-size:50px;
+    padding: 8px 12px; 
+    border: 0px; 
+    -webkit-box-shadow: 0 -2px 0 rgba(0,0,0,0.15) inset;
+    -moz-box-shadow: 0 -2px 0 rgba(0,0,0,0.15) inset;
+    box-shadow: 0 -2px 0 rgba(0,0,0,0.15) inset;
+    border-radius: 4px; 
+    text-decoration: none; 
+    display: inline-block;
+    margin: 8px 20px;
 }
 
 .column{
     width:48%;
     padding:2px;
     float: left;
+}
+
+.col-3{
+    width: 30%;
+    margin:1.5%;
+    float:left;
+}
+
+.spacer{
+    height:20px;
+}
+
+.flexbox{
+    display: inline-flex;
+}
+
+.horizontal li{
+    float: left;
+}
+
+.hours{
+    font-size: 10px;
+    margin: 5px 10px;
 }
